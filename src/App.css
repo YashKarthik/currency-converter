@@ -1,0 +1,89 @@
+.App {
+	font-family: Arial, Helvetica, sans-serif;
+  background-color: #12111c;
+  min-height: 100vh;
+}
+
+.App-header {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+	width: 100%;
+
+	font-family: monospace;
+  font-size: calc(15px + 2vmin);
+	font-variant: small-caps;
+	letter-spacing: -0.01em;
+  color: white;
+}
+
+.Interface {
+	display: flex;
+	flex-direction: row;
+
+	position: absolute;
+	left: 35%;
+	top: 30%;
+
+	width: 30%;
+	padding: 10px;
+
+	background-color: #282c34;
+
+	border: 2px solid #282c34;
+	border-radius: 5px;
+}
+
+.between-drops {
+	position: relative;
+	left: 45%;
+
+	margin: 30px 0 30px 0;
+
+	color: white;
+}
+
+.currency-form {
+	display: flex;
+	flex-direction: column;
+}
+
+#form-1 {
+	align-items: start;
+	padding: 0 10px 0 0;
+
+}
+
+#form-2 {
+	align-items: end;
+	padding: 0 0 0 10px;
+}
+
+#amount-input {
+	width: 80%;
+	height: 1.7em;
+	text-align: center;
+
+	font-weight: bold;
+	font-size: 40px;
+
+	color: #282c34;
+	background-color: white;
+
+	border: 2px solid #282c34;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-radius: 5px;
+	border-bottom: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+#equals-icon {
+	color: whitesmoke;
+	position: relative;
+	top: 0.8cm;
+}
